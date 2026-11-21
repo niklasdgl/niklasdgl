@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! I'm Niklas. I work on maths, machine learning and markets.</h2>
+<h2 align="left">Hi 👋! I'm Niklas. I work on maths, physics and machine learning</h2>
 
 ###
 
