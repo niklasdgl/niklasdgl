@@ -38,6 +38,7 @@ LINE_H = 29
 TYPE_SECONDS = 1.1
 HOLD_SECONDS = 4          # same pause as the portfolio site (HOLD_MS = 4000)
 SCREEN_SECONDS = TYPE_SECONDS + 0.9 + HOLD_SECONDS
+# animations start already past the typing of screen 1, so the first frame (and any static preview) is a full screen
 MONO = "ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace"
 
 
@@ -70,12 +71,12 @@ def screen_group(i: int, cmd: str, lines: list[str], t: dict) -> str:
     out = [f'<g opacity="0"><animate attributeName="opacity" dur="{total}s" '
            f'repeatCount="indefinite" calcMode="discrete" {vis}/>',
            f'<clipPath id="{clip_id}"><rect x="{prompt_x - 2:.1f}" y="{y0 - 18}" width="0" height="26">'
-           f'<animate attributeName="width" dur="{total}s" repeatCount="indefinite" {type_anim}/>'
+           f'<animate attributeName="width" dur="{total}s" begin="-{TYPE_SECONDS + 0.5}s" repeatCount="indefinite" {type_anim}/>'
            f'</rect></clipPath>',
            f'<text x="{PAD_X}" y="{y0}" fill="{t["ok"]}">→</text>',
            f'<text x="{PAD_X + 2 * CHAR_W:.1f}" y="{y0}" fill="{t["tilde"]}">~</text>',
            f'<text x="{prompt_x:.1f}" y="{y0}" fill="{t["ink"]}" clip-path="url(#{clip_id})">{escape(cmd)}</text>',
-           f'<g opacity="0"><animate attributeName="opacity" dur="{total}s" repeatCount="indefinite" '
+           f'<g opacity="0"><animate attributeName="opacity" dur="{total}s" begin="-{TYPE_SECONDS + 0.5}s" repeatCount="indefinite" '
            f'calcMode="discrete" {out_anim}/>']
     for k, line in enumerate(lines):
         out.append(f'<text x="{PAD_X}" y="{y0 + (k + 1) * LINE_H + 4}" fill="{t["ink"]}">{escape(line)}</text>')

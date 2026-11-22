@@ -1,7 +1,7 @@
 <a href="https://niklasdgl.github.io/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
-    <img alt="niklas@portfolio terminal: into maths, physics and machine learning; simulation-based inference for chaotic systems" src="assets/header-light.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/niklasdgl/niklasdgl/main/assets/header-dark.svg?v=3" />
+    <img alt="niklas@portfolio terminal: into maths, physics and machine learning; simulation-based inference for chaotic systems" src="https://raw.githubusercontent.com/niklasdgl/niklasdgl/main/assets/header-light.svg?v=3" width="100%" />
   </picture>
 </a>
 
