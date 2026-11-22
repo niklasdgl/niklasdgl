@@ -5,20 +5,16 @@
   </picture>
 </a>
 
-<p>
-  <a href="https://niklasdgl.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/portfolio-niklasdgl.github.io-0a0a0a?style=flat-square&labelColor=1a1a1a&color=0a0a0a" /></a>
-  <a href="https://niklasdgl.github.io/cv.html"><img alt="CV" src="https://img.shields.io/badge/cv-view_%E2%86%97-0a0a0a?style=flat-square&labelColor=1a1a1a&color=0a0a0a" /></a>
-  <a href="https://niklasdgl.github.io/publications.html"><img alt="Publications" src="https://img.shields.io/badge/publications-list-0a0a0a?style=flat-square&labelColor=1a1a1a&color=0a0a0a" /></a>
-</p>
+**[portfolio ↗](https://niklasdgl.github.io/)** &nbsp;·&nbsp; **[cv ↗](https://niklasdgl.github.io/cv.html)** &nbsp;·&nbsp; **[publications ↗](https://niklasdgl.github.io/publications.html)**
 
-### `$ ls ~/stack`
+<br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,cpp,cs,c,java,julia,r,postgres,pytorch,git,docker,linux&theme=dark&perline=12" />
-  <img alt="Python, C++, C#, C, Java, Julia, R, SQL, PyTorch, Git, Docker, Linux" src="https://skillicons.dev/icons?i=py,cpp,cs,c,java,julia,r,postgres,pytorch,git,docker,linux&theme=light&perline=12" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py%2Ccpp%2Ccs%2Cc%2Cjava%2Cjulia%2Cr%2Cpostgres%2Cpytorch%2Cgit%2Cdocker%2Clinux&theme=dark&perline=12" />
+  <img alt="Python, C++, C#, C, Java, Julia, R, SQL, PyTorch, Git, Docker, Linux" src="https://skillicons.dev/icons?i=py%2Ccpp%2Ccs%2Cc%2Cjava%2Cjulia%2Cr%2Cpostgres%2Cpytorch%2Cgit%2Cdocker%2Clinux&theme=light&perline=12" />
 </picture>
 
-### `$ git log --graph`
+<br /><br />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/niklasdgl/niklasdgl/output/github-snake-dark.svg" />

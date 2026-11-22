@@ -28,13 +28,13 @@ THEMES = {
                   dot="#b5b5b5"),
 }
 
-WIDTH, HEIGHT = 860, 262
-FOOT_H = 40
+WIDTH, HEIGHT = 760, 236
+FOOT_H = 36
 BAR_H = 38
 PAD_X = 28
-FONT = 15
+FONT = 17
 CHAR_W = FONT * 0.602          # monospace advance width
-LINE_H = 26
+LINE_H = 29
 TYPE_SECONDS = 1.1
 HOLD_SECONDS = 4          # same pause as the portfolio site (HOLD_MS = 4000)
 SCREEN_SECONDS = TYPE_SECONDS + 0.9 + HOLD_SECONDS
@@ -48,7 +48,7 @@ def frac(seconds: float, total: float) -> str:
 def screen_group(i: int, cmd: str, lines: list[str], t: dict) -> str:
     total = SCREEN_SECONDS * len(SCREENS)
     start, end = i * SCREEN_SECONDS, (i + 1) * SCREEN_SECONDS
-    y0 = BAR_H + 40
+    y0 = BAR_H + 38
 
     # visibility of the whole screen (discrete on/off inside the 30 s cycle)
     if i == 0:
