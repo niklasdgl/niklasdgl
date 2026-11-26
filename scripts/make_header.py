@@ -19,13 +19,13 @@ SCREENS = [
                        "Olympiad trainer and mentor."]),
 ]
 
-THEMES = {
-    "dark": dict(bg="#0a0a0a", panel="#0f0f0f", line="#2a2a2a", ink="#e5e5e5",
-                 dim="#7a7a7a", ok="#34d399", tilde="#a0a0a0",
-                 dot="#5a5a5a"),
-    "light": dict(bg="#ffffff", panel="#fafafa", line="#e5e5e5", ink="#171717",
-                  dim="#8a8a8a", ok="#059669", tilde="#6b6b6b",
-                  dot="#b5b5b5"),
+THEMES = {  # GitHub Primer colors, so the card blends into the profile page
+    "dark": dict(bg="#0d1117", panel="#0d1117", line="#30363d", ink="#e6edf3",
+                 dim="#9198a1", ok="#3fb950", tilde="#8b949e",
+                 dot="#484f58"),
+    "light": dict(bg="#ffffff", panel="#ffffff", line="#d1d9e0", ink="#1f2328",
+                  dim="#59636e", ok="#1a7f37", tilde="#59636e",
+                  dot="#afb8c1"),
 }
 
 WIDTH, HEIGHT = 760, 236
